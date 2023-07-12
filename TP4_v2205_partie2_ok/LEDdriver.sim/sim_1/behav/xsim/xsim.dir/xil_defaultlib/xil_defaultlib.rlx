@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/AJC projets/TP4/TP4_v2205_partie2_okv2/LEDdriver.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v,1684837658,verilog,,,,fifo_generator_0,,,,,,,,
+D:/AJC projets/TP4/TP4_v2205_partie2_okv2/LEDdriver.sim/sim_1/behav/xsim/glbl.v,1605673890,verilog,,,,glbl,,,,,,,,
+D:/AJC projets/TP4/TP4_v2205_partie2_okv2/LedDriver.vhd,1686517816,vhdl,,,,leddriver,,,,,,,,
+D:/AJC projets/TP4/TP4_v2205_partie2_okv2/TOP.vhd,1685949092,vhdl,,,,top,,,,,,,,
+D:/AJC projets/TP4/TP4_v2205_partie2_okv2/counter_unit.vhd,1686517139,vhdl,,,,counter_unit,,,,,,,,
+D:/AJC projets/TP4/TP4_v2205_partie2_okv2/tb_TOP.vhd,1685950119,vhdl,,,,tb_top,,,,,,,,

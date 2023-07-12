@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun  5 09:05:43 2023
+# Process ID: 3504
+# Current directory: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32 C:\Users\utilisateur\Desktop\LTspice\Porte logique\CoursFPGA\TP4_LEDdriver_partie1_ok\LEDdriver.xpr
+# Log file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/LEDdriver.xpr}
+update_compile_order -fileset sources_1

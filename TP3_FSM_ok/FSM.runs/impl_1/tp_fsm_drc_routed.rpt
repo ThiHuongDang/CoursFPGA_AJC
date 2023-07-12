@@ -1,0 +1,58 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 19 06:59:04 2023
+| Host         : DESKTOP-AD02GFS running 64-bit major release  (build 9200)
+| Command      : report_drc -file tp_fsm_drc_routed.rpt -pb tp_fsm_drc_routed.pb -rpx tp_fsm_drc_routed.rpx
+| Design       : tp_fsm
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 4
++----------+----------+---------------------------------+------------+
+| Rule     | Severity | Description                     | Violations |
++----------+----------+---------------------------------+------------+
+| PDRC-153 | Warning  | Gated clock check               | 2          |
+| RPBF-3   | Warning  | IO port buffering is incomplete | 1          |
+| ZPS7-1   | Warning  | PS7 block required              | 1          |
++----------+----------+---------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net uut/E[0] is a gated clock net sourced by a combinational pin uut/led_output_reg[2]_i_2/O, cell uut/led_output_reg[2]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net uut/counter_led_reg[0]_0[0] is a gated clock net sourced by a combinational pin uut/FSM_sequential_next_state_reg[1]_i_2/O, cell uut/FSM_sequential_next_state_reg[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+RPBF-3#1 Warning
+IO port buffering is incomplete  
+Device port end_counter_cycle expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

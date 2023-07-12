@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun  5 09:06:24 2023
+# Process ID: 5632
+# Current directory: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8552 C:\Users\utilisateur\Desktop\LTspice\Porte logique\CoursFPGA\TP4_v2205_partie2_ok\LEDdriver.xpr
+# Log file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/LEDdriver.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/TOP.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/TOP.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/tb_TOP.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/tb_TOP.vhd}}
+add_files -norecurse {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/TOP.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_TOP.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_TOP.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_TOP.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/TOP.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/TOP.vhd}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/TOP.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_TOP.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_tp_led_driver_behav.wcfg}
+source TOP.tcl
+save_wave_config {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_tp_led_driver_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_tp_led_driver_behav.wcfg}
+source TOP.tcl
+save_wave_config {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_tp_led_driver_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v2205_partie2_ok/tb_tp_led_driver_behav.wcfg}
+source TOP.tcl
+close_sim

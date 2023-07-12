@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"D:/AJC projets/project_2/counter.vhd" \
+"D:/AJC projets/project_2/tb_counter.vhd" \
+
+# Do not sort compile order
+nosort

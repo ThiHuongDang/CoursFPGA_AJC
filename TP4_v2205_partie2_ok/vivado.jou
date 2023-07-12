@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 12 01:02:53 2023
+# Process ID: 6596
+# Current directory: D:/AJC projets/TP4/TP4_v2205_partie2_okv2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7060 D:\AJC projets\TP4\TP4_v2205_partie2_okv2\LEDdriver.xpr
+# Log file: D:/AJC projets/TP4/TP4_v2205_partie2_okv2/vivado.log
+# Journal file: D:/AJC projets/TP4/TP4_v2205_partie2_okv2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/AJC projets/TP4/TP4_v2205_partie2_okv2/LEDdriver.xpr}
+update_compile_order -fileset sources_1

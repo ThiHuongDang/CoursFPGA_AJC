@@ -1,0 +1,37 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 84b9f68b3eae44d4a48180ba84438107 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_generator_0_tb_behav xil_defaultlib.fifo_generator_0_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package unisim.vcomponents
+Compiling package xil_defaultlib.fifo_generator_0_pkg
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture rg_arch of entity xil_defaultlib.fifo_generator_0_rng [\fifo_generator_0_rng(seed=5)\]
+Compiling architecture fg_dg_arch of entity xil_defaultlib.fifo_generator_0_dgen [\fifo_generator_0_dgen(c_din_wid...]
+Compiling architecture fg_dv_arch of entity xil_defaultlib.fifo_generator_0_dverif [\fifo_generator_0_dverif(c_din_w...]
+Compiling architecture rg_arch of entity xil_defaultlib.fifo_generator_0_rng [\fifo_generator_0_rng(seed=6)\]
+Compiling architecture fg_pc_arch of entity xil_defaultlib.fifo_generator_0_pctrl [\fifo_generator_0_pctrl(axi_chan...]
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_s...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_CONV_VER(...
+Compiling module fifo_generator_v13_2_5.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling architecture xilinx of entity xil_defaultlib.fifo_generator_0_top [fifo_generator_0_top_default]
+Compiling architecture simulation_arch of entity xil_defaultlib.fifo_generator_0_exdes [fifo_generator_0_exdes_default]
+Compiling architecture fifo_generator_0_arch of entity xil_defaultlib.fifo_generator_0_tb
+Built simulation snapshot fifo_generator_0_tb_behav

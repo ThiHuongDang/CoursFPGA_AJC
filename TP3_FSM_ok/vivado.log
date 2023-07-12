@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun  8 22:51:10 2023
+# Process ID: 7364
+# Current directory: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14100 C:\Users\utilisateur\Desktop\LTspice\Porte logique\CoursFPGA\TP3_FSM_ok\FMS_LED.xpr
+# Log file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/FMS_LED.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/AJC projets/TP3_FSM' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/FMS_LED.gen/sources_1', nor could it be found using path 'D:/AJC projets/TP3_FSM/FMS_LED.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1145.465 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun  8 22:53:00 2023] Launched synth_1...
+Run output will be captured here: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/FMS_LED.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1352.703 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/Cora-Z7-10-Master.xdc]
+Finished Parsing XDC File [C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/Cora-Z7-10-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1462.992 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1589.340 ; gain = 443.875
+launch_runs impl_1 -jobs 4
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 2040.625 ; gain = 0.000
+[Fri Jun  9 00:24:24 2023] Launched impl_1...
+Run output will be captured here: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/FMS_LED.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  9 00:35:50 2023...

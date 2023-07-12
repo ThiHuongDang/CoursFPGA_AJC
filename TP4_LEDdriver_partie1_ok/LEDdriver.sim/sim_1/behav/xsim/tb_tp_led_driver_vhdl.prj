@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../LedDriver.vhd" \
+"../../../../counter_unit.vhd" \
+"../../../../tp_led_driver.vhd" \
+"../../../../tb_led_driver.vhd" \
+
+# Do not sort compile order
+nosort

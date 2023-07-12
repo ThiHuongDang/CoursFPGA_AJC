@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun  6 22:43:23 2023
+# Process ID: 15836
+# Current directory: D:/AJC projets/TP3_FSM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14300 D:\AJC projets\TP3_FSM\FMS_LED.xpr
+# Log file: D:/AJC projets/TP3_FSM/vivado.log
+# Journal file: D:/AJC projets/TP3_FSM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/AJC projets/TP3_FSM/FMS_LED.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {D:/AJC projets/TP3_FSM/tb_tp_fsm_behav.wcfg}
+source tb_tp_fsm.tcl
+run 25 us
+close_sim
+launch_simulation
+open_wave_config {D:/AJC projets/TP3_FSM/tb_tp_fsm_behav.wcfg}
+source tb_tp_fsm.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/AJC projets/TP3_FSM/FMS_LED.runs/impl_1/tp_fsm.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/AJC projets/TP3_FSM/FMS_LED.runs/impl_1/tp_fsm.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+open_run synth_1 -name synth_1
+close_sim

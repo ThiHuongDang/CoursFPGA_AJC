@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun  8 22:53:02 2023
+# Process ID: 9496
+# Current directory: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/FMS_LED.runs/synth_1
+# Command line: vivado.exe -log tp_fsm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tp_fsm.tcl
+# Log file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/FMS_LED.runs/synth_1/tp_fsm.vds
+# Journal file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM_ok/FMS_LED.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tp_fsm.tcl -notrace

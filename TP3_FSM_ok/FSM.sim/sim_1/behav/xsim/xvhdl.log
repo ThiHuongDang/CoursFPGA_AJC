@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM/counter_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM/tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tp_fsm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM/tb_tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_tp_fsm'

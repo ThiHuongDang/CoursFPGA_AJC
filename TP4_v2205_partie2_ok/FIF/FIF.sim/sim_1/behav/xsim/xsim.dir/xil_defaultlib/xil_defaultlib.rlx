@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/AJC projets/TP4/TP4_v2205/FIF/FIF.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v,1684766154,verilog,,,,fifo_generator_0,,,,,,,,
+D:/AJC projets/TP4/TP4_v2205/FIF/FIF.sim/sim_1/behav/xsim/glbl.v,1605673890,verilog,,,,glbl,,,,,,,,
+D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_dgen.vhd,1684766253,vhdl,,,,fifo_generator_0_dgen,,,,,,,,
+D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_dverif.vhd,1684766253,vhdl,,,,fifo_generator_0_dverif,,,,,,,,
+D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_exdes.vhd,1684766254,vhdl,,,,fifo_generator_0_exdes,,,,,,,,
+D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_pctrl.vhd,1684766254,vhdl,,,,fifo_generator_0_pctrl,,,,,,,,
+D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_pkg.vhd,1684766253,vhdl,D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_dgen.vhd;D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_dverif.vhd;D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_exdes.vhd;D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_pctrl.vhd,,,fifo_generator_0_pkg,,,,,,,,
+D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_rng.vhd,1684766253,vhdl,,,,fifo_generator_0_rng,,,,,,,,
+D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_tb.vhd,1684766254,vhdl,,,,fifo_generator_0_tb,,,,,,,,
+D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_top.vhd,1684766253,vhdl,,,,fifo_generator_0_top,,,,,,,,

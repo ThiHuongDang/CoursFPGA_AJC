@@ -1,0 +1,136 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 22 17:04:18 2023
+# Process ID: 9728
+# Current directory: D:/AJC projets/TP4/TP4_v2205/FIF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11540 D:\AJC projets\TP4\TP4_v2205\FIF\FIF.xpr
+# Log file: D:/AJC projets/TP4/TP4_v2205/FIF/vivado.log
+# Journal file: D:/AJC projets/TP4/TP4_v2205/FIF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/AJC projets/TP4/TP4_v2205/FIF/FIF.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1144.766 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/AJC projets/TP4/TP4_v2205/FIF/FIF.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/AJC projets/TP4/TP4_v2205/FIF/FIF.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'fifo_generator_0_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/AJC projets/TP4/TP4_v2205/FIF/FIF.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj fifo_generator_0_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AJC projets/TP4/TP4_v2205/FIF/FIF.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AJC projets/TP4/TP4_v2205/FIF/FIF.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj fifo_generator_0_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_dgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_dgen'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_dverif.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_dverif'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_exdes.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_exdes'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_pctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_pctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_rng.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_rng'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/AJC projets/TP4/TP4_v2205/FIF/FIF.sim/sim_1/behav/xsim'
+"xelab -wto 84b9f68b3eae44d4a48180ba84438107 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_generator_0_tb_behav xil_defaultlib.fifo_generator_0_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 84b9f68b3eae44d4a48180ba84438107 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_generator_0_tb_behav xil_defaultlib.fifo_generator_0_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package unisim.vcomponents
+Compiling package xil_defaultlib.fifo_generator_0_pkg
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture rg_arch of entity xil_defaultlib.fifo_generator_0_rng [\fifo_generator_0_rng(seed=5)\]
+Compiling architecture fg_dg_arch of entity xil_defaultlib.fifo_generator_0_dgen [\fifo_generator_0_dgen(c_din_wid...]
+Compiling architecture fg_dv_arch of entity xil_defaultlib.fifo_generator_0_dverif [\fifo_generator_0_dverif(c_din_w...]
+Compiling architecture rg_arch of entity xil_defaultlib.fifo_generator_0_rng [\fifo_generator_0_rng(seed=6)\]
+Compiling architecture fg_pc_arch of entity xil_defaultlib.fifo_generator_0_pctrl [\fifo_generator_0_pctrl(axi_chan...]
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_s...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_CONV_VER(...
+Compiling module fifo_generator_v13_2_5.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling architecture xilinx of entity xil_defaultlib.fifo_generator_0_top [fifo_generator_0_top_default]
+Compiling architecture simulation_arch of entity xil_defaultlib.fifo_generator_0_exdes [fifo_generator_0_exdes_default]
+Compiling architecture fifo_generator_0_arch of entity xil_defaultlib.fifo_generator_0_tb
+Built simulation snapshot fifo_generator_0_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/AJC -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "D:/AJC" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Mon May 22 17:06:12 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1144.766 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/AJC projets/TP4/TP4_v2205/FIF/FIF.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fifo_generator_0_tb_behav -key {Behavioral:sim_1:Functional:fifo_generator_0_tb} -tclbatch {fifo_generator_0_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source fifo_generator_0_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+STATUS:
+XX
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fifo_generator_0_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1144.766 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 23 10:49:44 2023...

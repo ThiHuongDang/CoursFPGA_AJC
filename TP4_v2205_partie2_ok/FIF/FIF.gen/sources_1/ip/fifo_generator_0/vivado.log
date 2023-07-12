@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May 23 10:31:06 2023
+# Process ID: 3028
+# Current directory: D:/AJC projets/TP4/TP4_v2205/FIF/FIF.gen/sources_1/ip/fifo_generator_0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12656 D:\AJC projets\TP4\TP4_v2205\FIF\FIF.gen\sources_1\ip\fifo_generator_0\fifo_generator_0.dcp
+# Log file: D:/AJC projets/TP4/TP4_v2205/FIF/FIF.gen/sources_1/ip/fifo_generator_0/vivado.log
+# Journal file: D:/AJC projets/TP4/TP4_v2205/FIF/FIF.gen/sources_1/ip/fifo_generator_0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint {D:/AJC projets/TP4/TP4_v2205/FIF/FIF.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp}
+Command: open_checkpoint {D:/AJC projets/TP4/TP4_v2205/FIF/FIF.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp}
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1146.258 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2020.2/data/ip'.
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1283.633 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1369.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2020.2 (64-bit) build 3064766
+open_checkpoint: Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 1491.836 ; gain = 345.578
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 23 10:32:17 2023...

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  9 15:39:24 2023
+# Process ID: 15596
+# Current directory: D:/AJC projets/project_LEDblinker
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17000 D:\AJC projets\project_LEDblinker\project_LEDblinker.xpr
+# Log file: D:/AJC projets/project_LEDblinker/vivado.log
+# Journal file: D:/AJC projets/project_LEDblinker\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/AJC projets/project_LEDblinker/project_LEDblinker.xpr}
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/AJC projets/project_LEDblinker/project_LEDblinker.runs/impl_1/counter_unit.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/AJC projets/project_LEDblinker/project_LEDblinker.runs/impl_1/counter_unit.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+open_run synth_1 -name synth_1

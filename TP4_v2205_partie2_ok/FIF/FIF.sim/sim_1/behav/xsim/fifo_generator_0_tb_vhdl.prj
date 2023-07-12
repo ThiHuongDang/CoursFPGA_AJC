@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../fifo_generator_0_ex/imports/fifo_generator_0_pkg.vhd" \
+"../../../../../../fifo_generator_0_ex/imports/fifo_generator_0_dgen.vhd" \
+"../../../../../../fifo_generator_0_ex/imports/fifo_generator_0_dverif.vhd" \
+"../../../../../../fifo_generator_0_ex/imports/fifo_generator_0_exdes.vhd" \
+"../../../../../../fifo_generator_0_ex/imports/fifo_generator_0_pctrl.vhd" \
+"../../../../../../fifo_generator_0_ex/imports/fifo_generator_0_rng.vhd" \
+"../../../../../../fifo_generator_0_ex/imports/fifo_generator_0_top.vhd" \
+"../../../../../../fifo_generator_0_ex/imports/fifo_generator_0_tb.vhd" \
+
+# Do not sort compile order
+nosort

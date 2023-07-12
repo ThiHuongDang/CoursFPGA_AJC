@@ -1,0 +1,15 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_dgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_dgen'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_dverif.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_dverif'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_exdes.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_exdes'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_pctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_pctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_rng.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_rng'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/AJC projets/TP4/fifo_generator_0_ex/imports/fifo_generator_0_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_tb'

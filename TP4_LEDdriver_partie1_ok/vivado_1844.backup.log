@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun  1 09:36:02 2023
+# Process ID: 1844
+# Current directory: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent468 C:\Users\utilisateur\Desktop\LTspice\Porte logique\CoursFPGA\TP4_LEDdriver_partie1_ok\LEDdriver.xpr
+# Log file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/LEDdriver.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok'
+INFO: [Project 1-313] Project file moved from 'D:/AJC projets/TP4/TP4_LEDdriver_partie1' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_LEDdriver_partie1_ok/LEDdriver.gen/sources_1', nor could it be found using path 'D:/AJC projets/TP4/TP4_LEDdriver_partie1/LEDdriver.gen/sources_1'.
+INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP4_v1705/LEDdriver.ip_user_files'; using path 'D:/AJC projets/TP4/TP4_v1705/LEDdriver.ip_user_files' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 1145.566 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  1 16:59:22 2023...

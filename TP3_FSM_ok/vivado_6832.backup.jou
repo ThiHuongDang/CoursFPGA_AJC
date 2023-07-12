@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 19 07:54:46 2023
+# Process ID: 6832
+# Current directory: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10104 C:\Users\utilisateur\Desktop\LTspice\Porte logique\CoursFPGA\TP3_FSM\FSM.xpr
+# Log file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM/FSM.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM/tb_tp_fsm_behav.wcfg}
+source tb_tp_fsm.tcl
+save_wave_config {C:/Users/utilisateur/Desktop/LTspice/Porte logique/CoursFPGA/TP3_FSM/tb_tp_fsm_behav.wcfg}
+run all
+close_sim

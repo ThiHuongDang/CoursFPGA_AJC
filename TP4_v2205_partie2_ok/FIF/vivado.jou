@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 22 17:04:18 2023
+# Process ID: 9728
+# Current directory: D:/AJC projets/TP4/TP4_v2205/FIF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11540 D:\AJC projets\TP4\TP4_v2205\FIF\FIF.xpr
+# Log file: D:/AJC projets/TP4/TP4_v2205/FIF/vivado.log
+# Journal file: D:/AJC projets/TP4/TP4_v2205/FIF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/AJC projets/TP4/TP4_v2205/FIF/FIF.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source fifo_generator_0_tb.tcl
+close_sim
