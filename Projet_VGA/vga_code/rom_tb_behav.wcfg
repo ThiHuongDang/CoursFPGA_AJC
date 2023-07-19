@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rom_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rom_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3078814000fs"></ZoomStartTime>
+      <ZoomEndTime time="3080314001fs"></ZoomEndTime>
+      <Cursor1Time time="3080088000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="65"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/rom_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/VGA/h_cntr_reg" type="array">
+      <obj_property name="ElementShortName">h_cntr_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">h_cntr_reg[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/VGA/v_cntr_reg" type="array">
+      <obj_property name="ElementShortName">v_cntr_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">v_cntr_reg[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/VGA_R" type="array">
+      <obj_property name="ElementShortName">VGA_R[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_R[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/img/data" type="array">
+      <obj_property name="ElementShortName">data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/img/h_cntr_reg" type="array">
+      <obj_property name="ElementShortName">h_cntr_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">h_cntr_reg[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/img/v_cntr_reg" type="array">
+      <obj_property name="ElementShortName">v_cntr_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">v_cntr_reg[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/VGA_VS_O" type="logic">
+      <obj_property name="ElementShortName">VGA_VS_O</obj_property>
+      <obj_property name="ObjectShortName">VGA_VS_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/VGA_HS_O" type="logic">
+      <obj_property name="ElementShortName">VGA_HS_O</obj_property>
+      <obj_property name="ObjectShortName">VGA_HS_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/VGA_G" type="array">
+      <obj_property name="ElementShortName">VGA_G[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_G[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/VGA_B" type="array">
+      <obj_property name="ElementShortName">VGA_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_B[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_11" type="array">
+      <obj_property name="ElementShortName">s_mul_11[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_11[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_12" type="array">
+      <obj_property name="ElementShortName">s_mul_12[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_12[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_13" type="array">
+      <obj_property name="ElementShortName">s_mul_13[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_13[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_21" type="array">
+      <obj_property name="ElementShortName">s_mul_21[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_21[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_22" type="array">
+      <obj_property name="ElementShortName">s_mul_22[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_22[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_23" type="array">
+      <obj_property name="ElementShortName">s_mul_23[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_23[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_31" type="array">
+      <obj_property name="ElementShortName">s_mul_31[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_31[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_32" type="array">
+      <obj_property name="ElementShortName">s_mul_32[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_32[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/gaussian/gaussian_filter/s_mul_33" type="array">
+      <obj_property name="ElementShortName">s_mul_33[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mul_33[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rom_tb/med/s_enable" type="logic">
+      <obj_property name="ElementShortName">s_enable</obj_property>
+      <obj_property name="ObjectShortName">s_enable</obj_property>
+   </wvobject>
+</wave_config>

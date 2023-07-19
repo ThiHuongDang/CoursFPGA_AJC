@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/utilisateur/Desktop/vga/IP.sim/sim_1/behav/xsim/glbl.v,1605673890,verilog,,,,glbl,,,,,,,,
+C:/Users/utilisateur/Desktop/vga/IP/IP.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1688400497,verilog,,,,clk_wiz_0,,,../../../../IP/IP.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/utilisateur/Desktop/vga/IP/IP.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1688400497,verilog,,C:/Users/utilisateur/Desktop/vga/IP/IP.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../IP/IP.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/utilisateur/Desktop/vga/IP/IP.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v,1688400570,verilog,,C:/Users/utilisateur/Desktop/vga/IP/IP.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,fifo_generator_0,,,../../../../IP/IP.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/utilisateur/Desktop/vga/VGA_driver.vhd,1688392937,vhdl,,,,vga_driver,,,,,,,,
+C:/Users/utilisateur/Desktop/vga/gaussian.vhd,1688400847,vhdl,,,,gaussian,,,,,,,,
+C:/Users/utilisateur/Desktop/vga/gaussian_filter.vhd,1688168784,vhdl,,,,gaussian_filter,,,,,,,,
+C:/Users/utilisateur/Desktop/vga/generateur_pattern.vhd,1688402287,vhdl,,,,generateur_pattern,,,,,,,,
+C:/Users/utilisateur/Desktop/vga/rom_ctl.vhd,1688381671,vhdl,,,,rom_ctl,,,,,,,,
+C:/Users/utilisateur/Desktop/vga/rom_tb.vhd,1688402098,vhdl,,,,rom_tb,,,,,,,,
+C:/Users/utilisateur/Desktop/vga/shift_tab_3_3.vhd,1688383465,vhdl,,,,shift_tab_3_3,,,,,,,,
+C:/Users/utilisateur/Desktop/vga/top.vhd,1688402337,vhdl,,,,image_process,,,,,,,,

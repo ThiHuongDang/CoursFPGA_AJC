@@ -1,0 +1,168 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul  3 18:12:12 2023
+# Process ID: 1056
+# Current directory: C:/Users/utilisateur/Desktop/vga/IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11268 C:\Users\utilisateur\Desktop\vga\IP\IP.xpr
+# Log file: C:/Users/utilisateur/Desktop/vga/IP/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/vga/IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/utilisateur/Desktop/vga/IP/IP.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1144.754 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'rom_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj rom_tb_vlog.prj"
+"xvhdl --incr --relax -prj rom_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/utilisateur/Desktop/vga/rom_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rom_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+"xelab -wto d953160decc64b1ab7249507b13fb0f0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot rom_tb_behav xil_defaultlib.rom_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d953160decc64b1ab7249507b13fb0f0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot rom_tb_behav xil_defaultlib.rom_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_textio
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=36.5,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture behavioral of entity xil_defaultlib.generateur_pattern [generateur_pattern_default]
+Compiling architecture control of entity xil_defaultlib.rom_ctl [\rom_ctl(data_width=8,addr_cnt=2...]
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_s...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_CONV_VER(...
+Compiling module fifo_generator_v13_2_5.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling architecture control of entity xil_defaultlib.shift_tab_3_3 [\shift_tab_3_3(data_width=8,addr...]
+Compiling architecture gaussian of entity xil_defaultlib.gaussian [gaussian_default]
+Compiling architecture gaussian of entity xil_defaultlib.gaussian_filter [\gaussian_filter(data_width=8,ad...]
+Compiling architecture behavioral of entity xil_defaultlib.VGA_driver [vga_driver_default]
+Compiling architecture behavior of entity xil_defaultlib.image_process [image_process_default]
+Compiling architecture behavior of entity xil_defaultlib.rom_tb
+Built simulation snapshot rom_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim/xsim.dir/rom_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul  3 18:12:49 2023...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1144.754 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rom_tb_behav -key {Behavioral:sim_1:Functional:rom_tb} -tclbatch {rom_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rom_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rom_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1144.754 ; gain = 0.000
+run 500 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'rom_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj rom_tb_vlog.prj"
+"xvhdl --incr --relax -prj rom_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/utilisateur/Desktop/vga/gaussian.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gaussian'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+"xelab -wto d953160decc64b1ab7249507b13fb0f0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot rom_tb_behav xil_defaultlib.rom_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d953160decc64b1ab7249507b13fb0f0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot rom_tb_behav xil_defaultlib.rom_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/utilisateur/Desktop/vga/IP/IP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rom_tb_behav -key {Behavioral:sim_1:Functional:rom_tb} -tclbatch {rom_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rom_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rom_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1144.754 ; gain = 0.000
+run 500 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul  3 18:15:23 2023...

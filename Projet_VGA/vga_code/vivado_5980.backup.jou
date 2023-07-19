@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul  3 18:26:29 2023
+# Process ID: 5980
+# Current directory: C:/Users/utilisateur/Desktop/vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4696 C:\Users\utilisateur\Desktop\vga\IP.xpr
+# Log file: C:/Users/utilisateur/Desktop/vga/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/utilisateur/Desktop/vga/IP.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/utilisateur/Desktop/vga/rom_tb_behav.wcfg
+source rom_tb.tcl
+run 500 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/utilisateur/Desktop/vga/IP.runs/impl_1/image_process.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/utilisateur/Desktop/vga/IP.runs/impl_1/image_process.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+close_sim

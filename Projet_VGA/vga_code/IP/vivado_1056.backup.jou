@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul  3 18:12:12 2023
+# Process ID: 1056
+# Current directory: C:/Users/utilisateur/Desktop/vga/IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11268 C:\Users\utilisateur\Desktop\vga\IP\IP.xpr
+# Log file: C:/Users/utilisateur/Desktop/vga/IP/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/vga/IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/utilisateur/Desktop/vga/IP/IP.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source rom_tb.tcl
+run 500 us
+close_sim
+launch_simulation
+source rom_tb.tcl
+run 500 us
+close_sim

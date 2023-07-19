@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../VGA_driver.vhd" \
+"../../../../../gaussian.vhd" \
+"../../../../../gaussian_filter.vhd" \
+"../../../../../generateur_pattern.vhd" \
+"../../../../../rom_ctl.vhd" \
+"../../../../../shift_tab_3_3.vhd" \
+"../../../../../top.vhd" \
+"../../../../../rom_tb.vhd" \
+
+# Do not sort compile order
+nosort

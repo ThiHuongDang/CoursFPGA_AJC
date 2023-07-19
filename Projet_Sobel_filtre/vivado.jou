@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jul 19 09:45:15 2023
+# Process ID: 12420
+# Current directory: C:/Users/utilisateur/Desktop/CoursFPGA_AJC/CoursFPGA_AJC/Sobel filtre projet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10572 C:\Users\utilisateur\Desktop\CoursFPGA_AJC\CoursFPGA_AJC\Sobel filtre projet\IP_Sobel.xpr
+# Log file: C:/Users/utilisateur/Desktop/CoursFPGA_AJC/CoursFPGA_AJC/Sobel filtre projet/vivado.log
+# Journal file: C:/Users/utilisateur/Desktop/CoursFPGA_AJC/CoursFPGA_AJC/Sobel filtre projet\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/utilisateur/Desktop/CoursFPGA_AJC/CoursFPGA_AJC/Sobel filtre projet/IP_Sobel.xpr}
+update_compile_order -fileset sources_1
